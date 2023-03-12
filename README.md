@@ -20,4 +20,5 @@ Check Swagger page to see the API on your browser
 * http://localhost:8080/swagger-ui/#/recipe-controller
 
 ### Known issues
-If you are trying to run and build on Windows, you need to replace line ending characters in "entryScript.sh" from "\r\n" to "\n"
+* If you are trying to run and build on Windows, you need to replace line ending characters in "entryScript.sh" from "\r\n" to "\n"
+* If start-up fails, run "docker-compose up" command again

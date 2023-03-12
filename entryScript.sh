@@ -1,3 +1,3 @@
 #!/bin/sh
-sleep 5
+sleep 10
 java -jar /opt/app.jar
