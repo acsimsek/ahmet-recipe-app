@@ -1,5 +1,14 @@
 # READ ME
 
+## Architecture
+ * This is a Spring Boot backend web application written in Java with MySql database. 
+ * Database and the backend application run in separate docker containers set up with docker compose. 
+ * It has an ORM layer implemented with Hibernate. 
+ * Queries are implemented with Spring Data JPA and Specifications API.
+ * Specifications API is chosen because there can be dynamic queries with different combinations of filters.
+ * It serves the Recipes API with REST and the REST API is documented with Swagger UI.
+ * Recipes and Ingredients are modelled with many to many relationship using and intermediate recipe_ingredient table.
+
 ## How to build and run
 
 ### Install dependencies
